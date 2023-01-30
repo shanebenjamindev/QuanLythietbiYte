@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="taophieunhap.css">
+</head>
+<body>
+    <div id="header">
+
+        <div id="hh">
+            <h2 style="font-weight: bold;">Tạo phiếu nhập</h2>
+        </div>
+
+        <div id="kk">
+        <button type="button" name="luutam" value="luutam"  style="width:100px; height:35px; color: white; background-color:rgb(96, 96, 197); border-radius: 5px">Lưu tạm</button>      
+        <button type="button" name="luu" value="luu"  style="width:100px; height:35px; color: white; background-color:rgb(96, 96, 197); border-radius: 5px">Lưu</button>   
+        <button type="button" name="luuvain" value="luuvain"  style="width:100px; height:35px; color: white; background-color:rgb(96, 96, 197); border-radius: 5px">Lưu và in</button>
+        <button type="button" name="trolai" value="trolai"  style="width:100px; height:35px; color: white; background-color:rgb(96, 96, 197); border-radius: 5px">Trở lại</button>
+        </div>
+    </div>
+    <div class="aaa">
+      <div id="menu" style="margin-right: 30px;">
+        <div class="tt">
+        <input type="text" placeholder=" Nhập mã sản phẩm hoặc tên sản phẩm " style="width:820px; height: 25px;">
+        <table style=" margin-top:10px;background-color:yellow; width: 820px; height: 40px">
+            <tr style="text-align:center;font-family:Arial, Helvetica, sans-serif; background-color:rgb(212, 224, 230)">
+                <td><b>STT</b></td>
+                <td><b>Mã hàng</b></td>
+                <td><b>Tên sản phẩm</b></td>
+                <td><b>Số lượng</b></td>
+                <td><b>Giá bán</b></td>
+                <td><b>Thành tiền</b></td>
+                <td></td>
+              </tr>
+        </table>
+        <div  style="color:rgb(6, 77, 50);margin-top: 40px;background-color: rgb(171, 226, 206); width: 820px; height:50px;">
+             <p>Gõ mã hoặc tên sản phẩm vào hộp tìm kiếm để thêm hàng vào đơn hàng</p>
+        </div>
+    </div>
+  </div>
+    <div id="right" style ="margin-top: 200px">
+      <id id="aa">
+        <b>Khách hàng</b>    
+        <input type="text" placeholder=" Tìm nhà cung cấp " style="width:200px; height: 25px;">
+        <button type="button" name="khmoi" value="khmoi"  style="width:40px; height:32px; color: white; background-color:rgb(96, 96, 197);">+</button><br><br>
+        <b>Ngày nhập</b>  
+        <input type="text" placeholder=" Hôm nay " style="width:200px; height: 25px;"><br><br>
+        <b>Người nhập</b> 
+        <select name="bh" id="bh" style=" width: 209px; height: 32px; background-color: rgb(207, 203, 203);">
+         <option value="chonnvbanhang">admin</option>
+         <option value="admin">admin</option>
+         <option value="phk">Phạm Hoàng Khang</option>
+         <option value="ntl">Nguyễn Thanh Lễ</option>
+         <option value="ttp">Trần Tấn Phát</option>
+         <option value="tdcv">Triệu Đoan Chí Vĩ</option>
+         <option value="vpg">Võ Phong Giang</option>
+       </select>
+       <br><br>  
+       <b>Ghi chú</b>   
+       <textarea id="ghichu" name="ghichu" rows="4" cols="50" style=" width: 203px; height:55px"></textarea><br><br>
+       <a style=" color: rgb(4, 224, 213)">Thông tin thanh toán</a>
+       <p>__________________________________________________</p>
+       <form action="/action_page.php">
+          <b>Hình thức</b>
+          <input type="radio" id="tienmat" name="fav_language" value="tienmat">
+          <label for="tienmat">Tiền mặt</label>
+          <input type="radio" id="the" name="fav_language" value="the">
+          <label for="the">Thẻ</label><br>
+        </form><br><br>  
+
+        <b>Tiền hàng</b>
+        <div class="total-money">0</div><br>
+        <b>Giảm giá</b>  
+        <input type="text" placeholder=" 0 " style="width:200px; height: 25px;"><br><br> 
+        <b>Tổng cộng</b>
+        <div class="total-money">0</div><br>
+        <b>KH đã trả</b>   
+         <input type="text" placeholder=" 0 " style="width:200px; height: 25px;"> <br><br>
+         <b>KH còn nợ</b>  
+         <div class="total-money">0</div>   
+<br>
+   <button type="button" name="luutam" value="luutam"  style="width:100px; height:35px; color: white; background-color:rgb(96, 96, 197); border-radius: 5px">Lưu tạm</button>      
+   <button type="button" name="luu" value="luu"  style="width:100px; height:35px; color: white; background-color:rgb(96, 96, 197); border-radius: 5px">Lưu</button>   
+   <button type="button" name="luuvain" value="luuvain"  style="width:100px; height:35px; color: white; background-color:rgb(96, 96, 197); border-radius: 5px">Lưu và in</button>
+   <button type="button" name="trolai" value="trolai"  style="width:100px; height:35px; color: white; background-color:rgb(96, 96, 197); border-radius: 5px">Trở lại</button>
+     </id>
+    </div>      
+    </div>
+    <div id="footer"></div>
+</body>
+</html>

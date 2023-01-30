@@ -1,0 +1,125 @@
+<?php 
+   if(isset($_GET['DK']) ||isset($_GET['DN']) ){
+    header("location:./Form Login-SignUp/login-signup.php");
+   }
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Chu</title>
+    <link rel="stylesheet " href="index.css">
+</head>
+<style>
+   button{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+   }
+</style>
+<body> 
+    <form>
+<div id="header">
+
+    <iframe src="http://localhost/QuanLyWebTBYT/header/header-index.php" width="100%" height="130px"frameborder="0"></iframe>
+
+</div>
+<div class="menu">
+    <div class="img-logo">
+        <img src="http://localhost/QuanLyWebTBYT/image/website-ban-thiet-bi-y-te-1.png">
+    </div>
+    <p style="color:#FF6600;font-size: 80px;">QUẢN LÝ THIẾT BỊ Y TẾ DH</p>
+    <button type="submit" name="DK" value="Đăng Ký" style="height: 60px ; width: 140px; border: 1px solid white; background-color:#FF9900; border-radius:10px; color:white; font-weight:bold;"> Đăng nhập</button>
+    <button  type="submit" name="DN" value="Đăng Nhập" style="height: 60px ; width: 140px;margin-left:200px; border: 1px solid white; background-color:#0066FF; border-radius:10px; color:white; font-weight:bold; "> Đăng ký</button>
+</div>
+<div class="center" style=" width: 100%; height:1000px; background-color:white;">
+    <div class="left-ct" style="float: left; width: 3%; height: 100%; background-color: white"></div>
+    <div class="center-ct" style="float: left; width: 90%; height: 100%; background-color: beige">
+        <div class="top-center" style=" width: 100%; height: 15%;background-color: white;">
+            <div class="buoc" style="float: left; width:21%; height: 100%;background-color: white;">
+                <img src="http://localhost/QuanLyWebTBYT/image/QUYTRINH.PNG">
+            </div>
+            <div class="buoc1" style="float: left; width:19%; height: 100%;background-color:white;margin-right: 9px;">
+                <img src="http://localhost/QuanLyWebTBYT/image/buoc1.PNG"style="margin-top: 20px;">
+            </div>
+            <div class="buoc2" style="float: left; width:19%; height: 100%;background-color:white;margin-right: 9px;">
+                <img src="http://localhost/QuanLyWebTBYT/image/buoc2.PNG" style="margin-top: 20px;">
+            </div>
+            <div class="buoc3" style="float: left; width:19%; height: 100%;background-color:white;margin-right: 9px;">
+                <img src="http://localhost/QuanLyWebTBYT/image/buoc3.PNG"style="margin-top: 18px;">
+            </div>
+            <div class="buoc4" style="float: left; width:19%; height: 100%;background-color:white;margin-right: 9px;">
+                <img src="http://localhost/QuanLyWebTBYT/image/buoc4.PNG"style="margin-top: 18px;">
+            </div>
+        </div>
+        <div class="gioitthieulogo" style=" width: 100%; height: 25%;background-color: white;">
+            <img src="http://localhost/QuanLyWebTBYT/image/logo.jpg" style="height: 130px; width: 130px;margin-left: 550px;">
+            <img src="http://localhost/QuanLyWebTBYT/image/textgioithieu.jpg" style="margin-left: 30px;">
+        </div>
+        <div class="gioitthieutext" style=" width: 100%; height: 80%;background-color: white;">
+
+            <pre><h3 style="padding-left: 130px; " >Lời nói đầu, Công ty TNHH Giải Pháp Kỹ Thuật Số DH Cần Thơ xin gửi lời cảm ơn chân thành ty về dịch vụ công nghệ, </h3></pre>
+            <pre><h3 style="padding-left: 130px">công ty chúng tôi hoạt động trong lĩnh vực: công nghệ thông tin với mong muốn phục vụ khách hàng tốt nhất. </h3></pre>
+            <pre><h3 style="padding-left: 130px">Với đội ngũ kỹ sư, chuyên viên trong ngành CNTT Công ty TNHH Giải Pháp kỹ thuật số DH Cần Thơ luôn đưa ra giải </h3></pre>
+            <pre><h3 style="padding-left: 130px">pháp về công nghệ tốt nhất.</h3></pre>
+            <br>
+            <pre><h3 style="padding-left: 130px">Đến với chúng tôi, quý khách hàng sẽ được trải nghiệm những dịch vụ tốt nhất, hoàn hảo nhất với giá cạnh tranh nhất. </h3></pre>
+            <pre><h3 style="padding-left: 130px">Quý khách hàng có thể hoàn yên tâm với dịch vụ 24/7 của chúng tôi. Với sứ mệnh Công Nghệ chúng tôi sẽ mang đến cho  </h3></pre>
+            <pre><h3 style="padding-left: 130px">khách hàng những gì tốt nhất về lĩnh vực này.</h3></pre>
+            <br>
+            <pre><h3 style="padding-left: 130px">Tầm nhìn</h3></pre>
+            <pre><h3 style="padding-left: 130px">Trong 5 năm tới, Công ty TNHH Giải Pháp Kỹ Thuật Số DH Cần Thơ sẽ trở thành một công ty dịch vụ CNTT nhất nhì tỉnh thành.</h3></pre>
+            <br>
+            <pre><h3 style="padding-left: 130px">Sứ mệnh</h3></pre>
+            <pre><h3 style="padding-left: 130px">Công ty TNHH Giải Pháp Kỹ Thuật Số DH Cần Thơ theo đuổi sứ mệnh mang đến những dịch vụ về Công Nghệ tốt nhất cho khách </h3></pre>
+            <pre><h3 style="padding-left: 130px">hàng, góp phần phát triển Công Nghệ của đất nước.</h3></pre>
+            <br>
+            <pre><h3 style="padding-left: 130px">Nhân sự & cơ sở vật chất</h3></pre>
+            <pre><h3 style="padding-left: 130px">Công ty TNHH Giải Pháp Kỹ Thuật Số DH Cần Thơ chú trọng vào tuyển dụng và đào tạo nguồn nhân lực chất lượng cao, làm việc</h3></pre>
+            <pre><h3 style="padding-left: 130px">chuyên nghiệp, tận tâm và có trách nhiệm với khách hàng, đặt chữ tín lên hàng đầu,…</h3></pre>
+            <br>
+            <pre><h3 style="padding-left: 130px">Công ty TNHH Giải Pháp Kỹ Thuật Số DH Cần Thơ có diện tích….với đầy đủ thiết bị chuyên dụng đảm bảo cung cấp dịch vụ chuyên</h3></pre>
+            <pre><h3 style="padding-left: 130px">nghiệp,….</h3></pre>
+            <br>
+            <pre><h3 style="padding-left: 130px">Triết lý kinh doanh</h3></pre>
+            <pre><h3 style="padding-left: 130px">Công ty TNHH Giải Pháp Kỹ Thuật Số DH Cần Thơ quan niệm rằng khách hàng là trọng tâm, là định hướng để phục vụ của doanh</h3></pre>
+            <pre><h3 style="padding-left: 130px">nghiệp,…Với định hướng này, Công ty TNHH Giải Pháp Kỹ Thuật Số DH Cần Thơ mong nhận được sự hợp tác và hỗ trợ nhiều hơn </h3></pre>
+            <pre><h3 style="padding-left: 130px">nữa từ các… Đến với Công ty TNHH Giải Pháp Kỹ Thuật Số DH Cần Thơ, quý khách hàng sẽ nhận được những lợi ích sau:</h3></pre>
+            <pre><h3 style="padding-left: 130px">•	Hỗ trợ tư vấn….</h3></pre>
+            <pre><h3 style="padding-left: 130px">•	Hỗ trợ kỹ thuật 24/7</h3></pre>
+            <pre><h3 style="padding-left: 130px">•	Hỗ trợ….</h3></pre>
+            <br>
+            <pre><h3 style="padding-left: 130px">Hãy liên hệ với Công ty TNHH Giải Pháp Kỹ Thuật Số DH Cần Thơ nếu bạn đang cần Công Nghệ/Phần Mềm theo:</h3></pre>
+            <pre><h3 style="padding-left: 130px">Công ty: TNHH Giải Pháp Kỹ Thuật Số DH Cần Thơ</h3></pre>
+            <pre><h3 style="padding-left: 130px">Tên giao dịch:…..</h3></pre>
+            <pre><h3 style="padding-left: 130px">Trụ sở chính: A12B, Chung cư 178, đường 3/2, P. Hưng Lợi, Q. Ninh Kiều, Tp. Cần Thơ</h3></pre>
+            <pre><h3 style="padding-left: 130px">Văn phòng giao dịch:……….</h3></pre>
+            <pre><h3 style="padding-left: 130px">Điện thoại: 02922.222.228</h3></pre>
+            <pre><h3 style="padding-left: 130px">Fax:</h3></pre>
+            <pre><h3 style="padding-left: 130px">Email: giaiphapkts.dh@gmail.com</h3></pre>
+            <pre><h3 style="padding-left: 130px">Website: </h3></pre>
+            <pre><h3 style="padding-left: 130px">Website: </h3></pre>
+            <pre><h3 style="padding-left: 130px">Website: </h3></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+</div>
+</form>
+</body>
+</html>
